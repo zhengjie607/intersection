@@ -85,7 +85,7 @@ x,y=intersection(x1,y1,x2,y2)
 
     xy0=T[2:,in_range]
     xy0=xy0.T
-    return xy0[:,0:2]
+    return xy0
 
 
 if __name__ == '__main__':
